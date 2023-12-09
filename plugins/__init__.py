@@ -1,6 +1,4 @@
-import asyncio
 
-async def coroutine():
 from aiohttp import web
 from .route import routes
 
