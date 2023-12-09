@@ -2,7 +2,7 @@ from aiohttp import web
 from .route import routes
 import asyncio
 
-async def your_coroutine():
+async def coroutine():
 
 async def web_server():
     web_app = web.Application(client_max_size=30000000)
